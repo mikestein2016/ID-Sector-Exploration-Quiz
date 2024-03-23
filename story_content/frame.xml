@@ -75,6 +75,7 @@
           </option>
           <option name="settings" value="false" />
           <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -1570,7 +1571,7 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.5tKzbP46UWB.6USzocRzJpe" displaytext="ID Sector Exploration Quiz&#xA;&#xA;Answer the 20 questions honestly to find the sector that best fits your preferences.&#xA;&#xA;Click Start to begin. &#xA;" expand="false" type="slide" />
+        <slidelink slideid="_player.5tKzbP46UWB.6USzocRzJpe" displaytext="Instructional Design Sector Quiz&#xA;&#xA;Answer the 20 questions to find the sector that best fits your preferences.&#xA;&#xA;Corporate&#xA;Education&#xA;Freelance&#xA;Government&#xA;Non-Profit&#xA;&#xA;Click Start to begin. &#xA;" expand="false" type="slide" />
         <slidelink slideid="_player.5tKzbP46UWB.5sGqSQfuaQT" displaytext="Working Style" expand="false" type="slide" />
         <slidelink slideid="_player.5tKzbP46UWB.5tJDdo5PKfz" displaytext="Pace &amp;amp; Structure" expand="false" type="slide" />
         <slidelink slideid="_player.5tKzbP46UWB.6M8plPi7zQX" displaytext="Company Size &amp;amp; Culture" expand="false" type="slide" />
