@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <!-- Created using Storyline 360 x64 - http://www.articulate.com  -->
-  <!-- version: 3.85.31840.0 -->
+  <!-- version: 3.86.32080.0 -->
   <title>ID Sector Exploration Quiz
 
 </title>
@@ -30,7 +30,7 @@
       captureRc: false,
       browserSize: 'optimal',
       bgColor: '#282828',
-      features: 'ConnectionMessages,DropInBase,DropInMisc,DropInVectors,DropInVideo,JsApi,LayerPresentAsDialog,MultipleQuizTracking,UpdatedThemeEditor',
+      features: 'ClosedCaptionsCustomization,DropInBase,DropInInteractions,DropInMisc,DropInVectors,DropInVideo,JsApi,LayerPresentAsDialog,MultipleQuizTracking,UpdatedThemeEditor',
       themeName: 'unified',
       preloaderColor: '#FFFFFF',
       suppressAnalytics: false,
@@ -38,8 +38,8 @@
       publishSource: 'storyline',
       aid: 'aid|7c9dd1df-62fe-4cbc-a07b-b3ae378318f8',
       cid: '76c8209e-50d2-435c-9dfb-6a6e14346ba3',
-      playerVersion: '3.85.31840.0',
-      publishTimestamp: '2024-03-23T12:38:55.1840587Z',
+      playerVersion: '3.86.32080.0',
+      publishTimestamp: '2024-04-20T20:45:46.9006054Z',
       maxIosVideoElements: 10,
       connectionSettings: { message: 'You%20are%20offline.%20Trying%20to%20reconnect...', useDarkTheme: false, mode: 'disabled' },
       hasFeature: function(feature) {
@@ -256,11 +256,8 @@
 
     var connectionSettings = window.globals.connectionSettings || {};
 
-    // The `window.globals.features` variable must be set in `webpack.dev.config` when testing locally - it is not enough
-    // to have it in the data - but it must be set there as well.
     var useConnectionMessages = window.AbortController != null &&
       window.location.protocol != 'file:' &&
-      window.globals.features.indexOf('ConnectionMessages') != -1 &&
       connectionSettings.mode === 'normal';
 
     window.DS.connection.useConnectionMessages = useConnectionMessages;
